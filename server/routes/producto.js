@@ -79,7 +79,7 @@ app.get('/producto/:id', verificarToken, (req, res) => {
 
 });
 /**
- * Buscar un producto
+ * Buscar un producto  
  */
 app.get('/producto/buscar/:termino', verificarToken, (req, res) => {
 
